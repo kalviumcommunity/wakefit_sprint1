@@ -6,6 +6,8 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Eye, EyeOff, ShieldCheck } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
